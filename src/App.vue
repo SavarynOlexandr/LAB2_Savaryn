@@ -12,7 +12,9 @@ const checkoutOpen = ref(false)
 const notice = ref('')
 
 onMounted(async () => {
-  const response = await fetch(`${import.meta.env.BASE_URL}products.json`)
+  const response = await fetch(
+    `${import.meta.env.BASE_URL}products.json?v=${Date.now()}`
+  )
   products.value = await response.json()
   const savedCart = localStorage.getItem('peak-cart')
   if (savedCart) cart.value = JSON.parse(savedCart)

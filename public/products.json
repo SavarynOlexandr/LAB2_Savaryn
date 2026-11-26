@@ -13,7 +13,7 @@
     "price": 2900,
     "rentalPrice": 350,
     "category": "Взуття",
-    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80"
+    "image": "./products/boots.jpg"
   },
   {
     "id": 3,
@@ -45,7 +45,7 @@
     "price": 6800,
     "rentalPrice": 700,
     "category": "Наметове містечко",
-    "image": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=900&q=80"
+    "image": "./products/tent.jpg"
   },
   {
     "id": 7,
@@ -53,7 +53,7 @@
     "price": 950,
     "rentalPrice": 140,
     "category": "Гірська кухня",
-    "image": "https://images.unsplash.com/photo-1523987355523-c7b5b0dd90a7?auto=format&fit=crop&w=900&q=80"
+    "image": "./products/stove.jpg"
   },
   {
     "id": 8,

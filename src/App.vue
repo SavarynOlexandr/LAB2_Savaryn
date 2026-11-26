@@ -155,7 +155,6 @@ function submitOrder(event) {
           <article v-for="product in filteredProducts" :key="product.id" class="product-card">
             <div class="product-image-wrap">
               <img :src="product.image" :alt="product.name" class="product-image">
-              <span class="category-badge">{{ product.category }}</span>
             </div>
             <div class="product-info">
               <h3>{{ product.name }}</h3>
